@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Warren</a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">☰</label>
+        
+        <nav>
+           <a href="index.html">Home</a>
+           <a href="about.html" >About</a>
+           <a href="Certificates.html" >Certificates</a>
+           <a href="projects.html" class="active">Projects</a>
+           <a href="contact.html" >Contact</a>
+        </nav>
+    </header>
+     <section class="projects"></section>
+        <h1>My <span>Projects</span></h1>
+
+        <div class="projects-grid">
+
+           <div class="project-card video-card">
+                <h3>Video Project</h3>
+
+                <video controls class="project-video">
+                    <source src="/vidoes/myvideo.mp4" type="video/mp4">
+                </video>
+
+                <p>Filming and editing short film for Somerset film during the Young Photographers Exhibition</p>
+            </div>
+
+            <div class="project-card">
+                <img src="img/project1.jpg" alt="Project Image">
+                <h3>Portfolio Website</h3>
+                <p>A fully responsive personal portfolio built using HTML & CSS. Includes About, Education, Projects, and Certifications pages.</p>
+            </div>
+
+            <div class="project-card">
+                <img src="img/project2.jpg" alt="Project Image">
+                <h3>WFX Designs Branding</h3>
+                <p>Branding and graphic design work including posters, flyers, and logo concepts for WFX Designs. I have done work for Circle of freinds</p>
+            </div>
+
+            <div class="project-card">
+                <img src="img/project4.jpg"  alt="Project Image">
+                <h3>WFX Designs Branding</h3>
+                <p>Created posters for Somerset Film for a fun activity during the Youth Exhibition</p>
+            </div>
+
+            <div class="project-card full-row">
+                <img src="img/project3.jpg" class="tall-img" alt="Project Image">
+                <h3>WFX Designs Branding</h3>
+                <p>Created banners and flyers for ROO' Ndzev a community in southwest England  </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-left">
+            <p>Web Developer · Graphic Designer · Student</p>
+        </div>
+
+        <div class="footer-center">
+            <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-icon"><i class="fas fa-briefcase"></i></a>
+        </div>
+
+        <div class="footer-right">
+            <p>© 2025 Warren Ngalim. All rights reserved.</p>
+        </div>
+   </footer>
+
+</body>
+</html>
